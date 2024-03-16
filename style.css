@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: rgb(187,208,247);
+    background: linear-gradient(90deg, rgba(187,208,247,1) 19%, rgba(232,249,255,1) 65%, rgba(159,232,233,1) 100%);
+}
+
+.section{
+    position: center;
+    text-align: center;
+    margin-top: 125px;
+}
+
+.section h1{
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(72, 87, 249, 0.988);
+    font-style: italic;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.container button{
+    padding: 5px;
+    background-color: rgba(72, 87, 249, 0.988);
+    color: white;
+    border: 1px solid rgba(72, 87, 249, 0.988);
+    transition-duration: 0.35s;
+}
+
+.container label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container input{
+    padding: 5px;
+    margin: 5px;
+}
+
+.container button:hover{
+    background: transparent;
+    color: rgba(72, 87, 249, 0.988);
+    transition-duration: 0.35s;
+}
+
+.container p{
+    margin: 30px 100px;
+}
